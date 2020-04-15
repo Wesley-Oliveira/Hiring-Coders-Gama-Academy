@@ -17,3 +17,26 @@ body {
     margin-right: 5%;
     padding: 2%;;
 }
+
+a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: blue;
+    text-decoration: unset;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+#imgLoja {
+    width: 100%;
+}
+
+#tituloDestaque {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    text-shadow: gray 1px 1px 5px;
+}
