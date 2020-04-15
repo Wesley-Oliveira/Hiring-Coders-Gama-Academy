@@ -69,3 +69,48 @@ h3 {
     text-align: center;
     font-size: 30px;
 }
+
+#rodape {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(110, 110, 110);
+    padding-top: 30px;
+}
+
+#redesSociais {
+    margin-left: 20px;
+    margin-top: 20px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 50px;
+}
+
+.rede {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#email {
+    margin-right: 50px;
+}
+
+#email h3 {
+    color: white;
+}
+
+input {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: rgb(80, 80, 250);
+    width: 100px;
+    height: 40px;
+    border: rgb(80, 80, 250) 1px solid;
+    color: white;
+    font-size: 20px;
+    box-shadow: blue 1px 1px 5px;
+    margin-bottom: 30px;
+}
