@@ -40,3 +40,32 @@ a {
     justify-content: center;
     text-shadow: gray 1px 1px 5px;
 }
+
+#produtos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.produtoDestaque {
+    border: gray 1px solid;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.produtoDestaque img {
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 10px;
+}
+
+.produtoDestaque p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+}
+
+h3 {
+    text-align: center;
+    font-size: 30px;
+}
