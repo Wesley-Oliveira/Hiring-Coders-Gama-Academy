@@ -110,3 +110,12 @@ const contato: Contato = {
     nome: 'valor',
     telefone1: '1234123',
 }
+
+// Type Assertion
+const minhaIdade: any = 23;
+(minhaIdade as number).toString();
+(<number> minhaIdade).toString(); // mesma coisa
+
+const input = document.getElementById("numero1") as HTMLInputElement;
+//const input = <HTMLInputElement> document.getElementById("numero1"); // mesma coisa
+console.log(input.value);
