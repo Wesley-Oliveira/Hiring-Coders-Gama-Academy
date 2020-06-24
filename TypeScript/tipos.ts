@@ -68,3 +68,45 @@ function exibirNota(nota: number | string) {
 
 exibirNota('10');
 exibirNota(10);
+
+// Alias
+type Funcionario = {
+    nome: string;
+    sobrenome: string;
+    dataNascimento: Date;
+}
+
+//type Funcionarios = Array<Funcionario>;
+const funcionarios: Funcionario[] = [
+    {
+        nome: 'Teste',
+        sobrenome: 'testando',
+        dataNascimento: new Date()
+    },
+    {
+        nome: 'Teste',
+        sobrenome: 'testando',
+        dataNascimento: new Date()
+    }
+];
+
+function tratarFuncionarios(funcionarios: Funcionario []) {
+    for(let funcionario of funcionarios) {
+        console.log('Nome do funcionário: ', funcionario.nome);
+    }
+}
+
+// Valores nulos ou opcionais
+let altura: number | null = 1.6;
+altura = null;
+
+type Contato = {
+    nome: string;
+    telefone1: string;
+    telefone2?: string; //O simbolo de ? marca o atributo como opcional
+}
+
+const contato: Contato = {
+    nome: 'valor',
+    telefone1: '1234123',
+}
