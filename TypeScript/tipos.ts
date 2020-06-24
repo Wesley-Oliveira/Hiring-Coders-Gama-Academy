@@ -44,3 +44,27 @@ function criar(objecto: object) {
 criar({
     propriedade: 1,
 });
+
+// Never
+function loopInfinito(): never {
+    while (true) {
+
+    }
+}
+
+function erro (msg: string): never {
+    throw new Error(msg);
+}
+
+function falha() {
+    return erro('Algo falhou');
+}
+
+// Union Types
+const nota: string | number = 5;
+function exibirNota(nota: number | string) {
+    console.log(`A nota é ${nota}`);
+}
+
+exibirNota('10');
+exibirNota(10);
